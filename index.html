@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kerem Elma | Portfolio</title>
+  <meta
+    name="description"
+    content="Kerem Elma - Computer Engineering student. Projects in cybersecurity, backend systems, and web development."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>  <div class="bg-shape bg-shape-a" aria-hidden="true"></div>
+  <div class="bg-shape bg-shape-b" aria-hidden="true"></div>
+
+  <!-- Sidebar Navigation -->
+  <button class="sidebar-toggle" id="sidebar-toggle" type="button" aria-label="Hide navigation" aria-expanded="true">◀</button>
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-content">
+      <a href="#intro" class="nav-link">Intro</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#experiences" class="nav-link">Experiences</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <div class="nav-subsection">
+        <a href="#projects-cybersecurity" class="nav-sublink">🔒 Cybersecurity</a>
+        <a href="#projects-backend" class="nav-sublink">🛠 Backend</a>
+        <a href="#projects-blockchain" class="nav-sublink">🔗 Blockchain</a>
+        <a href="#projects-games" class="nav-sublink">🎮 Games</a>
+        <a href="#projects-education" class="nav-sublink">📚 Education</a>
+        <a href="#projects-health" class="nav-sublink">🏥 Health</a>
+      </div>
+      <a href="#tools" class="nav-link">Languages & Tools</a>
+    </div>
+  </nav>
+
+  <header class="hero container" id="intro">
+    <p class="tag">Hi, I am</p>
+    <h1>Kerem Elma</h1>
+    <p class="subtitle">BSc in Computer Engineering @ TOBB ETU</p>
+    <p class="summary">
+      I build practical software focused on cybersecurity, backend architecture,
+      and data-driven systems.
+    </p>
+    <div class="hero-links">
+      <a href="assets/kerem_elma_cv.pdf" download>Download CV</a>
+      <a href="https://github.com/kelma01" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/kerem-elma" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="mailto:keremelma388@outlook.com">Email</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section" id="about">
+      <h2>About</h2>
+      <p>
+        I am currently working on an AI-powered cybersecurity platform and I enjoy
+        shipping real products that solve concrete problems.
+      </p>
+      <p>
+        My stack includes Python, Go, JavaScript/TypeScript, Java, Docker,
+        Elasticsearch, MongoDB, MySQL, and Linux-based tooling.
+      </p>
+    </section>
+
+    <section class="section experiences-section" id="experiences">
+      <h2>Experiences</h2>
+
+      <div class="experience-list">
+        <article class="experience-card">
+          <div class="experience-header">
+            <div class="experience-company">
+              <img src="assets/havelsan.png" alt="Havelsan logo" />
+              <div>
+                <h3>HAVELSAN, Ankara, Turkey</h3>
+                <p>May 2025 - August 2025</p>
+              </div>
+            </div>
+          </div>
+          <p>
+            During my internship, I worked as a backend developer on the open-source software product Liman at Havelsan. During the backend development period, I worked extensively on Go and Linux. Also gained experience in the field of DevOps by using Docker and Kubernetes during the deployment of the microservices and extensions I developed. Also gained experience with PostgreSQL, Redis, OpenTelemetry, ClickHouse, Prometheus, etc.
+          </p>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-header">
+            <div class="experience-company">
+              <img src="assets/ayesas.jpeg" alt="Ayesas logo" />
+              <div>
+                <h3>AYESAS, Ankara, Turkey</h3>
+                <p>September 2024 - December 2024</p>
+              </div>
+            </div>
+          </div>
+          <p>
+            During my internship, I have worked in radar project, developed message classes and message scenarios using Java, Python and Jython. Used Rational DOORS for documenting and developed a message simulator using UDP channels for communication and UI with JavaFX.
+          </p>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-header">
+            <div class="experience-company">
+              <img src="assets/tobb.png" alt="TOBB ETU logo" />
+              <div>
+                <h3>TOBB Economy and Technology University, Ankara, Turkey</h3>
+                <p>May 2024 - August 2024</p>
+              </div>
+            </div>
+          </div>
+          <p>
+            Undergraduate Teaching Assistant of the Introduction to Java (Bil113)
+          </p>
+        </article>
+
+        <article class="experience-card">
+          <div class="experience-header">
+            <div class="experience-company">
+              <img src="assets/stm.jpg" alt="STM logo" />
+              <div>
+                <h3>STM, Ankara, Turkey</h3>
+                <p>January 2024 - April 2024</p>
+              </div>
+            </div>
+          </div>
+          <p>
+            During my internship, I made backend developments on a web service with the Django framework. In this way, I developed myself in the field of Python, Linux. I also had the opportunity to develop myself in the field of Cyber Threat Intelligence. In addition, during the internship, I gained teamwork experience using software development methodologies such as agile, scrum meetings, sprints, JIRA, etc.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <h2>Projects</h2>
+
+      <div class="project-group" id="projects-cybersecurity">
+        <h3>🔒 Cybersecurity Projects</h3>
+        <div class="project-grid">
+          <article class="card">
+            <h4>Domain Analyzer</h4>
+            <p>Blue team scanning tool for detailed information about a URL.</p>
+            <div class="repo-lang repo-lang--python">Python</div>
+            <a href="https://github.com/kelma01/domain-analyzer" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+
+          <article class="card">
+            <h4>Network Scanner</h4>
+            <p>Python module that scans DNS records, IP addresses, and ports for a given domain.</p>
+            <div class="repo-lang repo-lang--python">Python</div>
+            <a href="https://github.com/kelma01/network-scanner" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+
+          <article class="card">
+            <h4>Sslyze Scanner</h4>
+            <p>SSL certificate checker for a domain input.</p>
+            <div class="repo-lang repo-lang--python">Python</div>
+            <a href="https://github.com/kelma01/sslyze-scanner" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+
+          <article class="card">
+            <h4>Papillon</h4>
+            <p>TOBB ETÜ senior-year AI-powered cybersecurity project.</p>
+            <div class="repo-lang repo-lang--python">Python</div>
+            <a href="https://github.com/kelma01/papillon" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+        </div>
+      </div>
+
+      <div class="project-group" id="projects-backend">
+        <h3>🛠 Backend & Tools</h3>
+        <div class="project-grid">
+          <article class="card">
+            <h4>Url Shortener</h4>
+            <p>URL shortener using mainly Go, PostgreSQL, and Redis.</p>
+            <div class="repo-lang repo-lang--go">Go</div>
+            <a href="https://github.com/kelma01/url-shortener" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+
+          <article class="card">
+            <h4>Data Comparer</h4>
+            <p>Comparison of JSON, XML, Avro, and Parquet file types.</p>
+            <div class="repo-lang repo-lang--python">Python</div>
+            <a href="https://github.com/kelma01/data-comparer" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+
+          <article class="card">
+            <h4>Cinema Ticket Booking Project</h4>
+            <p>Online cinema ticket booking app.</p>
+            <div class="repo-lang repo-lang--javascript">JavaScript</div>
+            <a href="https://github.com/kelma01/cinema-ticket-booking-project" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+
+          <article class="card">
+            <h4>Message Simulator</h4>
+            <p>Message simulator built with Java.</p>
+            <div class="repo-lang repo-lang--java">Java</div>
+            <a href="https://github.com/kelma01/message-simulator" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+        </div>
+      </div>
+
+      <div class="project-group" id="projects-blockchain">
+        <h3>🔗 Blockchain & Smart Contracts</h3>
+        <div class="project-grid">
+          <article class="card">
+            <h4>Erc20 Energy Exchange</h4>
+            <p>ERC-20 plus EnergyExchange project using Hardhat, React, and Solidity.</p>
+            <div class="repo-lang repo-lang--javascript">JavaScript</div>
+            <a href="https://github.com/kelma01/erc20-energy-exchange" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+
+          <article class="card">
+            <h4>Erc721 Event Attendance</h4>
+            <p>Attendance tracker using NFT, ERC-721, Node.js, Express.js, and Solidity.</p>
+            <div class="repo-lang repo-lang--javascript">JavaScript</div>
+            <a href="https://github.com/kelma01/erc721-event-attendance" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+        </div>
+      </div>
+
+      <div class="project-group" id="projects-games">
+        <h3>🎮 Games & Experiments</h3>
+        <div class="project-grid">
+          <article class="card">
+            <h4>Plants Vs Zombies</h4>
+            <p>Plants vs Zombies game using Java.</p>
+            <div class="repo-lang repo-lang--java">Java</div>
+            <a href="https://github.com/kelma01/plants-vs-zombies" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+
+          <article class="card">
+            <h4>Paint</h4>
+            <p>Classic paint application developed in Java.</p>
+            <div class="repo-lang repo-lang--java">Java</div>
+            <a href="https://github.com/kelma01/paint" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+
+          <article class="card">
+            <h4>Snake</h4>
+            <p>Classic snake game developed in Java.</p>
+            <div class="repo-lang repo-lang--java">Java</div>
+            <a href="https://github.com/kelma01/snake" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+
+          <article class="card">
+            <h4>Xox Project</h4>
+            <p>XOX project developed with Java in freshman year.</p>
+            <div class="repo-lang repo-lang--java">Java</div>
+            <a href="https://github.com/kelma01/xox-project" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+
+          <article class="card">
+            <h4>Simon Game Fpga</h4>
+            <p>Simon game implemented on an FPGA card.</p>
+            <div class="repo-lang repo-lang--verilog">Verilog</div>
+            <a href="https://github.com/kelma01/simon-game-fpga" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+        </div>
+      </div>
+
+      <div class="project-group" id="projects-education">
+        <h3>📚 Education & Notes</h3>
+        <div class="project-grid">
+          <article class="card">
+            <h4>Java Object Oriented Lecture Notes</h4>
+            <p>A collection of Java notes covering recursion, OOP, inheritance, polymorphism, and exceptions.</p>
+            <div class="repo-lang repo-lang--java">Java</div>
+            <a href="https://github.com/kelma01/java-object-oriented-lecture-notes" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+        </div>
+      </div>
+
+      <div class="project-group" id="projects-health">
+        <h3>🏥 Health & Wellness</h3>
+        <div class="project-grid">
+          <article class="card">
+            <h4>Health Tracker</h4>
+            <p>Forked health tracker project from the original repository.</p>
+            <div class="repo-lang repo-lang--php">PHP</div>
+            <a href="https://github.com/kelma01/health-tracker" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+
+          <article class="card">
+            <h4>LifeSync</h4>
+            <p>LLM-integrated routine planner that generates personalized diet and exercise plans.</p>
+            <div class="repo-lang repo-lang--javascript">JavaScript</div>
+            <a href="https://github.com/kelma01/LifeSync" target="_blank" rel="noopener noreferrer">View Repository</a>
+          </article>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section tools-section" id="tools">
+      <h2>Languages &amp; Tools</h2>
+      <div class="tools-grid">
+        <div class="tool-group">
+          <h4>Programming Languages</h4>
+          <div class="tools-list">
+            <a href="https://www.python.org" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python"/></a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript"/></a>
+            <a href="https://www.java.com" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java"/></a>
+            <a href="https://golang.org" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go"/></a>
+            <a href="https://www.cprogramming.com/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"/></a>
+            <a href="https://www.php.net" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php"/></a>
+            <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noopener noreferrer"><img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash"/></a>
+            <a href="https://www.scala-lang.org" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala"/></a>
+            <a href="https://www.mathworks.com/" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab"/></a>
+          </div>
+        </div>
+
+        <div class="tool-group">
+          <h4>Backend &amp; Frameworks</h4>
+          <div class="tools-list">
+            <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django"/></a>
+            <a href="https://laravel.com/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel"/></a>
+            <a href="https://nodejs.org" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs"/></a>
+            <a href="https://expressjs.com" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express"/></a>
+            <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react"/></a>
+            <a href="https://spring.io/" target="_blank" rel="noopener noreferrer"><img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring"/></a>
+            <a href="https://openresty.org/" target="_blank" rel="noopener noreferrer"><img src="https://openresty.org/images/logo.png" alt="openresty"/></a>
+          </div>
+        </div>
+
+        <div class="tool-group">
+          <h4>Databases &amp; Storage</h4>
+          <div class="tools-list">
+            <a href="https://www.postgresql.org" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql"/></a>
+            <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql"/></a>
+            <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb"/></a>
+            <a href="https://redis.io" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis"/></a>
+            <a href="https://www.elastic.co" target="_blank" rel="noopener noreferrer"><img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elasticsearch"/></a>
+            <a href="https://www.sqlite.org/" target="_blank" rel="noopener noreferrer"><img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite"/></a>
+          </div>
+        </div>
+
+        <div class="tool-group">
+          <h4>DevOps &amp; Tooling</h4>
+          <div class="tools-list">
+            <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker"/></a>
+            <a href="https://kubernetes.io" target="_blank" rel="noopener noreferrer"><img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes"/></a>
+            <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git"/></a>
+            <a href="https://postman.com" target="_blank" rel="noopener noreferrer"><img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman"/></a>
+            <a href="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" target="_blank" rel="noopener noreferrer"><img src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" alt="hadoop"/></a>
+            <a href="https://hive.apache.org/" target="_blank" rel="noopener noreferrer"><img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive"/></a>
+            <a href="https://www.selenium.dev" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium"/></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+  </main>
+
+  <footer class="container footer">
+    <p>Made for GitHub Pages • 2026</p>
+  </footer>
+
+  <script>
+    const sidebar = document.getElementById('sidebar');
+    const sidebarToggle = document.getElementById('sidebar-toggle');
+    const navLinks = document.querySelectorAll('.nav-link, .nav-sublink');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute('href').substring(1);
+        const target = document.getElementById(targetId);
+
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    sidebarToggle.addEventListener('click', () => {
+      const isCollapsed = sidebar.classList.toggle('collapsed');
+      document.body.classList.toggle('sidebar-collapsed', isCollapsed);
+      sidebarToggle.setAttribute('aria-expanded', String(!isCollapsed));
+      sidebarToggle.textContent = isCollapsed ? '▶' : '◀';
+      sidebarToggle.setAttribute('aria-label', isCollapsed ? 'Show navigation' : 'Hide navigation');
+    });
+  </script>
+
+</body>
+</html>
